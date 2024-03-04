@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MakeEasy Travel Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+        <div class="header-content-div">
+            <a href="#home-sec">
+              <img
+                src="Travel image.webp"
+                alt="Company Logo"
+                id="header-img"
+            /></a>
+        
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#services" class="nav-link">SERVICES</a>
+          <a href="#contact" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="Travel image.webp" alt="Travel Logo" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Your Go To Travel Planner</h1>
+          <h2>
+            A service to make your travel easier and affordable
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Plan Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We MakeEasy team is not just a travel planner; we are your trusted companion in creating unforgettable memories. Whether you're a solo traveler seeking new horizons, a couple in search of a romantic getaway, or a family planning an epic vacation, we cater to all your travel needs. Our team of seasoned travel enthusiasts and experts is dedicated to crafting personalized itineraries that perfectly align with your preferences, interests, and budget.
+          </p>
+          <img src="travel about.png" alt="A man plucking apples from the tree" />
+        </div>
+      </section>
+
+      <section id="services" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="plan your day.png" alt="photo of amber apples" />
+            <h4>Plan Your Day</h4>
+            <p>
+                Unleash the potential of your day with our comprehensive day planner, designed to help you organize your time, stay productive, and make the most of every moment.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="plane tickets.png"
+              alt="photo of american trel apples"
+            />
+            <h4>Book Tickets</h4>
+            <p>
+                Embark on your next adventure seamlessly with MakeEasy, where booking tickets is as easy as a click.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="maps.png" alt="photo of red delicious apple" />
+            <h4>Map</h4>
+            <p>
+              A map for you for your destination and amenities nearby.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="guide.jpg" alt="photo of Maharaej apples" />
+            <h4>Guides</h4>
+            <p>
+                Providing you with knowledgeable and passionate guides.
+          </div>
+          <div class="tile">
+            <img src="food.jpg" alt="photo of Hazratbael apples" />
+            <h4>Food Near Me</h4>
+            <p>
+                We're here to guide you through a gastronomic journey, ensuring that your taste buds are treated to the finest flavors right around the corner.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="services.jpg" alt="photo of Golden Delicious apples" />
+            <h4>Other Services</h4>
+            <p>
+                We're committed to enhancing your overall lifestyle experience. Connect with us for any types of queries , we are available at your service 24/7.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>To know more contact us by :
+          </h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Designed by
+      <a href="#">Samruddhi Jamdade</a>
+    </footer>
+  </body>
+</html>
